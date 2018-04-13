@@ -1,0 +1,11 @@
+{
+  "name": "snell",
+  "version": "1.0.0",
+  "description": "A Demonstration of Snells Law",
+  "main": "index.js",
+  "author": "Adam Kelly",
+  "license": "MIT",
+  "dependencies": {
+    "two.js": "^0.7.0-alpha.1"
+  }
+}
