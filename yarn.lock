@@ -2,6 +2,10 @@
 # yarn lockfile v1
 
 
+dat.gui@^0.7.1:
+  version "0.7.1"
+  resolved "https://registry.yarnpkg.com/dat.gui/-/dat.gui-0.7.1.tgz#ff3f27c1029289840700f463748ec26df6269a70"
+
 two.js@^0.7.0-alpha.1:
   version "0.7.0-alpha.1"
   resolved "https://registry.yarnpkg.com/two.js/-/two.js-0.7.0-alpha.1.tgz#85a45ec22fd3e8d276796e0197e587719200a598"

@@ -8,12 +8,16 @@
 
 // Values for n for various surfaces
 const refractiveIndices = {
-  vacuum: 1,
+  Vacuum: 1,
   // Air at 0 degrees
-  air: 1.00029,
-  ice: 1.31,
+  'Air At 0 Degrees': 1.00029,
+  Ice: 1.31,
   // Water at 20 deg
-  water: 1.33,
+  'Water At 20 Degrees': 1.33,
+  Pyrex: 1.47,
+  'Plate Glass': 1.52,
+  Sapphire: 1.762,
+  Silicon: 3.42
 }
 
 /*
@@ -29,7 +33,9 @@ function calculateAngle(theta, from, to) {
   return Math.asin(Math.sin(theta) / (to / from))
 }
 
-module.exports = calculateAngle
+module.exports = { calculateAngle, refractiveIndices }
 
 // Light going from a vacuum into water at 45 degrees
-console.log(calculateAngle(Math.PI / 4, refractiveIndices.vacuum, refractiveIndices.water))
+console.log(
+  calculateAngle(Math.PI / 4, refractiveIndices.vacuum, refractiveIndices.water)
+)

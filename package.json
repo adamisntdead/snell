@@ -6,6 +6,7 @@
   "author": "Adam Kelly",
   "license": "MIT",
   "dependencies": {
+    "dat.gui": "^0.7.1",
     "two.js": "^0.7.0-alpha.1"
   }
 }
