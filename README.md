@@ -12,3 +12,13 @@ Snell's law states:
 
 > The ratio of the sines of the angles of incidence and refraction are equivalent to the ratio of
 > phase velocities in the two media, or equivalent to the reciprocal of the ratio of the indices of refraction
+
+## Deploying To Github Pages
+
+```
+# Build With Parcel
+parcel build index.html --public-url ./
+
+# Push to GH Pages
+git subtree push --prefix dist origin gh-pages
+```
